@@ -1,5 +1,5 @@
 # Ignorar datos locales
-data/
+# data/
 
 # Cachés de Python
 __pycache__/
