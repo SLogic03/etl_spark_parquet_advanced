@@ -1,0 +1,12 @@
+{
+  "rules": [
+    {
+      "name": "no_negative_fares",
+      "description": "Los importes monetarios no deben ser negativos."
+    },
+    {
+      "name": "valid_trip_dates",
+      "description": "Las fechas de inicio y fin deben ser coherentes."
+    }
+  ]
+}

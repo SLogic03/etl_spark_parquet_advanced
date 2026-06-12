@@ -1,0 +1,22 @@
+project:
+  name: etl_spark_parquet_advanced
+  base_path: .
+
+paths:
+  raw: data/raw
+  bronze: data/bronze
+  silver: data/silver
+  gold: data/gold
+  quarantine: data/quarantine
+  audit: data/audit
+
+sources:
+  yellow:
+    years: [2023]
+    months: [1, 2, 3, 4]
+  green:
+    years: [2023]
+    months: [1, 2]
+  fhvhv:
+    years: [2023]
+    months: [1]

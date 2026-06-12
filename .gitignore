@@ -1,0 +1,23 @@
+# Ignorar datos locales
+data/
+
+# Cachés de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Checkpoints de Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Archivos de entorno virtual
+venv/
+.venv/
+env/
+
+# Configuración de editores de código
+.vscode/
+.idea/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
